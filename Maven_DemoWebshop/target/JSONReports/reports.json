@@ -1,0 +1,314 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-16T17:29:53.529Z",
+        "line": 2,
+        "name": "To verify if result displayed is as per the entered data",
+        "description": "",
+        "id": "demowebshop-search-functionality;to-verify-if-result-displayed-is-as-per-the-entered-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5150089600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Browser is open",
+            "match": {
+              "location": "com.stepefinition.StepDefin.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8858160900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Home page is visible",
+            "match": {
+              "location": "com.stepefinition.StepDefin.home_page_is_visible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7832865300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the data in search text bar",
+            "match": {
+              "location": "com.stepefinition.StepDefin.user_enters_the_data_in_search_text_bar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3046600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on search button",
+            "match": {
+              "location": "com.stepefinition.StepDefin.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2962100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Result should displayed",
+            "match": {
+              "location": "com.stepefinition.StepDefin.result_should_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-16T17:30:15.472Z",
+        "line": 9,
+        "name": "To verify if system is suggesting a keyword relevant to entered data",
+        "description": "",
+        "id": "demowebshop-search-functionality;to-verify-if-system-is-suggesting-a-keyword-relevant-to-entered-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1993700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Relevant data",
+            "match": {
+              "location": "com.stepefinition.StepDefin.relevant_data()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1956000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "As user enters the data in search text bar",
+            "match": {
+              "location": "com.stepefinition.StepDefin.as_user_enters_the_data_in_search_text_bar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8901524500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "System should suggest some keywords relevant to entered data",
+            "match": {
+              "location": "com.stepefinition.StepDefin.system_should_suggest_some_keywords_relevant_to_entered_data()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-16T17:30:24.386Z",
+        "line": 14,
+        "name": "To verify if user is able to enter the data with 2 characters",
+        "description": "",
+        "id": "demowebshop-search-functionality;to-verify-if-user-is-able-to-enter-the-data-with-2-characters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 962000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Search text box is visible",
+            "match": {
+              "location": "com.stepefinition.StepDefin.search_text_box_is_visible()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4134075000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "As User enters data with 2 letters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 25
+                }
+              ],
+              "location": "com.stepefinition.StepDefin.as_user_enters_data_with_letters(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2990400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click enter",
+            "match": {
+              "location": "com.stepefinition.StepDefin.click_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2975188200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "System will display a message as no search result found",
+            "match": {
+              "location": "com.stepefinition.StepDefin.system_will_display_a_message_as_no_search_result_found()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-16T17:30:31.508Z",
+        "line": 20,
+        "name": "To verify if search advanced is searching the result",
+        "description": "",
+        "id": "demowebshop-search-functionality;to-verify-if-search-advanced-is-searching-the-result",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Search box is enabled",
+            "match": {
+              "location": "com.stepefinition.StepDefin.search_box_is_enabled()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4120461800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters a data in search bar",
+            "match": {
+              "location": "com.stepefinition.StepDefin.user_enters_a_data_in_search_bar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3582659700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click on search",
+            "match": {
+              "location": "com.stepefinition.StepDefin.click_on_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2118888200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Search advanced must be visible",
+            "match": {
+              "location": "com.stepefinition.StepDefin.search_advanced_must_be_visible()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-16T17:30:41.339Z",
+        "line": 26,
+        "name": "To verify if user is able to search the products by its manufacturer or company\u0027s name",
+        "description": "",
+        "id": "demowebshop-search-functionality;to-verify-if-user-is-able-to-search-the-products-by-its-manufacturer-or-company-s-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Search button is visible",
+            "match": {
+              "location": "com.stepefinition.StepDefin.search_button_is_visible()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4091598500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is enter the data from company\u0027s name",
+            "match": {
+              "location": "com.stepefinition.StepDefin.user_is_enter_the_data_from_company_s_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3034500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click on search buttton",
+            "match": {
+              "location": "com.stepefinition.StepDefin.click_on_search_buttton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1036251900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "System should display result",
+            "match": {
+              "location": "com.stepefinition.StepDefin.system_should_display_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Demowebshop search functionality",
+    "description": "",
+    "id": "demowebshop-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/feature/demoweb.feature",
+    "tags": []
+  }
+]
